@@ -1,0 +1,34 @@
+#cookie-msg {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999999;
+    transition: all .25s ease-in-out;
+    opacity: .9;
+    width: 100%;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+#cookie-msg a.btn-aceptar {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 99;
+}
+
+#cookie-info {
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 9999999;
+    transition: all .25s ease-in-out;
+    opacity: .9;
+    width: auto;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 12px;
+    box-shadow: #0d0d1f 1px 1px 5px 1px;
+    background-color: #fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
